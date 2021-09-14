@@ -1,0 +1,2 @@
+(this.webpackJsonpnoname=this.webpackJsonpnoname||[]).push([[0],{10:function(n,e,t){"use strict";t.r(e);t(1);var c=t(3),s=t.n(c),i=(t(8),t(0)),o=function(){return Object(i.jsx)("div",{className:"landing",children:Object(i.jsx)("h2",{className:"landing__title",children:"Coming Soon"})})},a=function(){return Object(i.jsx)(o,{})};s.a.render(Object(i.jsx)(a,{}),document.getElementById("root"))},8:function(n,e,t){}},[[10,1,2]]]);
+//# sourceMappingURL=main.bcfaabe8.chunk.js.map
