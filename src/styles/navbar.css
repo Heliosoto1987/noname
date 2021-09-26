@@ -1,0 +1,30 @@
+.nav {
+    background-color: black;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    color: white;
+}
+
+.nav__buttton{
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    padding: 10px;
+    background-color: black;
+    border-style: none;
+    color: white
+}
+
+.nav__buttton:hover{
+    color: rgb(130, 127, 127)
+}
+
+.nav__name{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+}
