@@ -18,15 +18,18 @@
 }
 
 .rosters{   
-    background-image: url(https://images3.alphacoders.com/104/thumb-1920-1045839.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
     background-position: center;
-    padding-top: 50px;
-    padding-left: 50px;
-}
+} 
 
+.rosters__title{
+    text-align: center;
+}
 .rosters__div{
     font-weight: bold;
     margin-bottom: 20px;
@@ -44,34 +47,36 @@
 
 .rosters__flexul{
     display: flex;
-        
+}
+
+.landing__photo{
+    height: 100vh;
+    background-image: url(https://larepublica.pe/resizer/xbDvD-DrxHPbN2cW6WlXOY6x4bU=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/AH7V6AMSDNGSJKR6CU27UWQMUU.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 @media (max-width: 600px ) {
 
-.rosters{
-    background-color: black;
-    background-image: url(https://www.muycomputer.com/wp-content/uploads/2019/10/Call-of-Duty-Modern-Warfare-1-portada-1000x600.jpg);
-    background-size: 500px;
-    background-position-y: bottom;
-    height: 100vh;
-    text-align: center;
-    font-weight: bolder;
-    color: whitesmoke;
-}
+    .rosters{
+        height: 100%;
+        text-align: center;
+        font-weight: bolder;
+        color: black;
+    }
 
-.rosters__flexul{
-    display: flex;
-    justify-content: space-around;
-}
+    .rosters__flexul{
+        display: flex;
+        justify-content: space-around;
+    }
 
-.rosters__ul{
-    width: fit-content;
+    .rosters__ul{
+        width: fit-content;
+    }
 
-}
-
-.rosters__li{
-    margin: 10px;
-}
-
+    .rosters__li{
+        margin: 10px;
+    }
 }

@@ -12,8 +12,9 @@ export const LandingScreen = (props) => {
       <div className="landing">
         <h1 className="landing__title">Bienvenidos</h1>
       </div>
+
+      <h2 className="rosters__title">Rosters:</h2>
       <div className="rosters">
-        <h2 className="rosters__title">Rosters</h2>
         <div className="rosters__flexul">
           <div className="rosters__ul">
             <div className="rosters__div">Equipo A:</div>
@@ -42,6 +43,7 @@ export const LandingScreen = (props) => {
           </div>
         </div>
       </div>
+      <div className="landing__photo"></div>
     </>
   );
 };

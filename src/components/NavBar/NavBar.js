@@ -29,7 +29,9 @@ export const NavBar = ({ props }) => {
             <button onClick={handleButtonOut} className="nav__buttton">
               logout
             </button>
-            <span className="nav__name">Bienvenido: {userState.name}</span>
+
+            <span className="nav_welcome">Bienvenido:</span>
+            <span className="nav__name"> {userState.name}</span>
           </>
         )}
       </nav>
